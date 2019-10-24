@@ -262,9 +262,9 @@ header .text-container {
   margin-bottom: 30px;
 }
 .home .content-pick .destination .btn {
-  width: 100%;
+  width: 85%;
   height: 4rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #FFFFFF;
   background-color: #238080;
   border: 1px solid #C0C0C0;
