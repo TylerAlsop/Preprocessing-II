@@ -186,6 +186,13 @@ nav .links {
   justify-content: space-around;
   align-items: center;
   width: 50%;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+nav .links a {
+  color: #212529;
 }
 .footer {
   width: 100%;
