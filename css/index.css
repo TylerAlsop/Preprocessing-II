@@ -175,24 +175,32 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2.5%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
   border-bottom: 2px dashed #C0C0C0;
+  border-length: 100%;
 }
 nav .logo {
   color: #212529;
 }
 nav .links {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  width: 50%;
+  width: 40%;
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   font-size: 1.6rem;
   padding-bottom: 10px;
+  padding-right: 4%;
 }
 nav .links a {
   color: #212529;
+}
+header {
+  border-bottom: 2px dashed #C0C0C0;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
 }
 .footer {
   width: 100%;

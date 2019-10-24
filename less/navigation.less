@@ -1,17 +1,19 @@
 // Navigation Styles here
 nav {
     .flex (space-between, center);
-    padding: 2.5%;
+    .padding-t-b();
     .border-bottom();
+    border-length: 100%;
 
     .logo {
         color: @font-color;
     }
     
     .links {
-        .flex (space-around, center);
-        width: 50%;
+        .flex (space-between, center);
+        width: 40%;
         .main-text ();
+        padding-right: 4%;
 
         a {
             color: @font-color;
