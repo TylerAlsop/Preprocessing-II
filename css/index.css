@@ -175,6 +175,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 2.5%;
   border-bottom: 2px dashed #C0C0C0;
 }
 nav .logo {
@@ -184,7 +185,7 @@ nav .links {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  text-decoration: none;
+  width: 50%;
 }
 .footer {
   width: 100%;
