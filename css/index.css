@@ -136,6 +136,9 @@ html,
 body {
   font-family: 'Roboto', sans-serif;
 }
+a {
+  text-decoration: none;
+}
 h1,
 h2,
 h3,
@@ -174,10 +177,14 @@ nav {
   align-items: center;
   border-bottom: 2px dashed #C0C0C0;
 }
+nav .logo {
+  color: #212529;
+}
 nav .links {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  text-decoration: none;
 }
 .footer {
   width: 100%;
