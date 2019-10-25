@@ -59,6 +59,14 @@
     width: 75%;
     margin: 0 auto 30px;
 
+    @media @tablet {
+      width: 100%
+    }
+
+    @media @mobile {
+      width: 100%
+    }
+
     img {
       border-radius: 10px;
     }
@@ -70,12 +78,28 @@
     display: flex;
     justify-content: space-between;
 
+    @media @mobile {
+      .flex-direction (column, center);
+      width: 100%;
+      padding-right: 40px;
+      padding-left: 40px;
+    }
+
     .destination {
       width: 30%;
       margin-bottom: 30px;
+  
+
+      @media @mobile {
+        .flex-direction (column, center);
+        width: 100%;
+      }
 
       .btn {
         .btn ();
+        @media @mobile {
+          width: 100%;
+        }
       }//End .btn
     }//End .destination
   }//End .content-pick
