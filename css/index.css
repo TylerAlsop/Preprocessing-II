@@ -181,6 +181,12 @@ img {
   padding-top: 2.4%;
   padding-bottom: 2.4%;
 }
+@media ( max-width: 500px ) {
+  .nav-container nav {
+    padding: 0px;
+    margin: 2%;
+  }
+}
 .nav-container nav .logo {
   color: #212529;
 }
@@ -228,6 +234,11 @@ header .text-container {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+@media ( max-width: 500px ) {
+  .home {
+    padding: 0 10px;
+  }
 }
 .home .content-section {
   margin: 30px 0;
