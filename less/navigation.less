@@ -1,7 +1,7 @@
 // Navigation Styles here
 .nav-container {
     .border-bottom();
-    
+
     nav {
         .flex (space-between, center);
         .padding-t-b();
@@ -20,5 +20,9 @@
                 color: @font-color;
             }//End a
         }//End .links
+
+        @media @mobile {
+            .flex ()
+        }
     }//End nav
 }//End .nav-container

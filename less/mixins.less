@@ -5,6 +5,13 @@
     align-items: @align;
 }
 
+.flex-column (@direction, @justify, @align) {
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+    align-items: @align;
+}
+
 .border-bottom () {
     border-bottom: 2px dashed @navigation-border;
 }
