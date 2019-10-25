@@ -6,8 +6,13 @@
         .flex (space-between, center);
         .padding-t-b();
 
+        @media @mobile {
+            
+        }
+
         .logo {
             color: @font-color;
+
         }
         
         .links {
@@ -16,9 +21,18 @@
             .main-text ();
             padding-right: 4%;
 
+            @media @mobile {
+                justify-content: space-around;
+                width: 100%;
+            }
+
             a {
                 color: @font-color;
             }//End a
         }//End .links
+
+        @media @mobile {
+            .flex-direction (column, center)
+        }
     }//End nav
 }//End .nav-container
