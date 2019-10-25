@@ -1,3 +1,5 @@
+@tablet (max-width: 700px);
+@mobile (max-width: 500px);
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -171,19 +173,20 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-nav {
+.nav-container {
+  border-bottom: 2px dashed #C0C0C0;
+}
+.nav-container nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 2.3%;
-  padding-bottom: 2.3%;
-  border-bottom: 2px dashed #C0C0C0;
-  border-width: 100%;
+  padding-top: 2.4%;
+  padding-bottom: 2.4%;
 }
-nav .logo {
+.nav-container nav .logo {
   color: #212529;
 }
-nav .links {
+.nav-container nav .links {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -194,15 +197,15 @@ nav .links {
   padding-bottom: 10px;
   padding-right: 4%;
 }
-nav .links a {
+.nav-container nav .links a {
   color: #212529;
 }
 header {
   border-bottom: 2px dashed #C0C0C0;
 }
 header .text-container {
-  padding-top: 2.3%;
-  padding-bottom: 2.3%;
+  padding-top: 2.4%;
+  padding-bottom: 2.4%;
 }
 .footer {
   width: 100%;

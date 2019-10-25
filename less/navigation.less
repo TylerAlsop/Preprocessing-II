@@ -1,22 +1,24 @@
 // Navigation Styles here
-nav {
-    .flex (space-between, center);
-    .padding-t-b();
+.nav-container {
     .border-bottom();
-    border-width: 100%;
-
-    .logo {
-        color: @font-color;
-    }
     
-    .links {
+    nav {
         .flex (space-between, center);
-        width: 40%;
-        .main-text ();
-        padding-right: 4%;
+        .padding-t-b();
 
-        a {
+        .logo {
             color: @font-color;
-        }//End a
-    }//End .links
-}//End nav
+        }
+        
+        .links {
+            .flex (space-between, center);
+            width: 40%;
+            .main-text ();
+            padding-right: 4%;
+
+            a {
+                color: @font-color;
+            }//End a
+        }//End .links
+    }//End nav
+}//End .nav-container
