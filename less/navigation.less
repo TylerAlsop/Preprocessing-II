@@ -5,6 +5,11 @@
     nav {
         .flex (space-between, center);
         .padding-t-b();
+        .padding-r-l ();
+
+        @media @tablet {
+        
+          }
 
         @media @mobile {
             .mobile-container-spacing ();
@@ -19,6 +24,10 @@
             width: 40%;
             .main-text ();
             padding-right: 4%;
+
+            @media @tablet {
+                width: 60%;
+            }
 
             @media @mobile {
                 justify-content: space-around;
