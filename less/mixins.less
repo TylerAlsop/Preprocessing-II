@@ -1,1 +1,60 @@
 // Mixins in here
+.flex (@justify, @align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.flex-direction (@direction, @justify) {
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+}
+
+.border-bottom () {
+    border-bottom: 2px dashed @navigation-border;
+}
+
+.spacing (@padding, @margin) {
+    padding: @padding;
+    margin: @margin;
+}
+.container-spacing () {
+    padding: 0;
+    margin: 30px;
+}
+
+.main-text () {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+}
+
+.padding-t-b () {
+    padding-top: 2.4%;
+    padding-bottom: 2.4%;
+}
+
+.padding-r-l () {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.btn (){
+    width: 85%;
+    height: 4rem;
+    font-size: 1.8rem;
+    color: @white;
+    background-color: @button-bg;
+    border: 1px solid @navigation-border;
+    border-radius: 12px;
+}
+
+//Tablet Width Mix-ins
+
+//Mobile Width Mix-ins
+.mobile-container-spacing () {
+    padding: 0px;
+    margin: 2%;
+}
